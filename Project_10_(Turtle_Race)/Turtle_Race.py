@@ -53,4 +53,4 @@ colours = COL[:racers]
 #create_turtles(colours) inside race()
 winner = race(colours)
 print(f"Winner of the race is {winner.upper()}.")
-turtle.done()
+turtle.done()                                        # to prevent (not responding) in turtle screen.
