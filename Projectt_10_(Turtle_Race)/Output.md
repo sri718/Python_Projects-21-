@@ -1,0 +1,4 @@
+Enter the number of racers (2-7):  7
+Winner of the race is PURPLE.
+
+![Turtle_Race_Visual](https://github.com/user-attachments/assets/451947ca-80b8-4a7c-9abb-47f729068d01)
