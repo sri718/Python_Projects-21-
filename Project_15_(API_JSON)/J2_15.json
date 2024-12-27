@@ -1,0 +1,17 @@
+{
+  "library": {
+    "name": "City Library",
+    "location": "Downtown",
+    "open_hours": {
+      "weekdays": "9 AM - 8 PM",
+      "weekends": "10 AM - 6 PM"
+    },
+    "related_books": {
+      "books_url": "https://raw.githubusercontent.com/sri718/Python_Projects-21-/refs/heads/main/Project_15_(API_JSON)/J1_15.json"
+    },
+    "additional_info": {
+      "established": 1980,
+      "total_books": 5000
+    }
+  }
+}
