@@ -1,7 +1,7 @@
 from requests import get
 from pprint import PrettyPrinter
 
-BASE_URL = 'https://raw.githubusercontent.com'              # hosted in GITHUB
+BASE_URL = 'https://raw.githubusercontent.com'                                    # hosted in GITHUB
 LINK =  '/sri718/Python_Projects-21-/refs/heads/main/Project_15_(API_JSON)/J1_P15.json'
 
 p = PrettyPrinter()
@@ -29,8 +29,8 @@ def get_books_url():
         auth = v['author']
         tit = v['title']
         yr = v['year']
-        det = v.get('details',{})                   # pass a dic called details, if not exist then an empty dic {}.
-        d = list(filter(lambda x: x['genre'] != 'Fiction',[det]))  # to filter,lambda is a anonymous fn.  ---> try.
+        det = v.get('details',{})                                                   # pass a dic called details, if not exist then an empty dic {}.
+        d = list(filter(lambda x: x['genre'] != 'Fiction',[det]))                   # to filter,lambda is a anonymous fn.  ---> try.
         gen = det['genre']
         rate = det['rating']
         print('-------------------------------------------------------------------------')
