@@ -19,12 +19,12 @@
             }
         },
         "book3": {
-            "title": "The Great Gatsby",
-            "author": "F. Scott Fitzgerald",
-            "year": 1925,
+            "title": "The Gby",
+            "author": "F. Scott",
+            "year": 1935,
             "details": {
                 "genre": "Fiction",
-                "rating": 4.4
+                "rating": 4.7
             }
         }
     }
