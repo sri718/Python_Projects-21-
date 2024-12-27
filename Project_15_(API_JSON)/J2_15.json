@@ -17,6 +17,15 @@
                 "genre": "Dystopian",
                 "rating": 4.8
             }
+        },
+        "book1": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "details": {
+                "genre": "Fiction",
+                "rating": 4.4
+            }
         }
     }
 }
