@@ -9,7 +9,7 @@ def download_video(url, save_path):
         opt = {
             'format': 'bestvideo+bestaudio',
             'outtmpl': f"{save_path}/%(resolution)s_%(title)s.%(ext)s",
-            'ffmpeg_location': r"C:\Users\sriva\Downloads\ffmpeg-master-latest-win64-gpl\ffmpeg-master-latest-win64-gpl\bin\ffmpeg.exe",
+            'ffmpeg_location': "REPLACE_UR_FFMPEG.exe_path",
             'merge_output_format': 'mp4'
         }
         
